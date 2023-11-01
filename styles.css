@@ -1,10 +1,225 @@
-* {
-  margin: 0;
+*{
   padding: 0;
+  margin: 0;
+  color: white;
 }
 
-//trying stuff
+h1, h3, h3, h4, h5, h6, img, nav, button, p{
+  padding: 0;
+  margin: 0;
+}
 
-.container {
-  //stuff
+
+.black-text {
+  color:black;
+}
+
+
+
+
+body {
+  background:white;
+  margin: 0;
+}
+
+.navigation {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.logo {
+  position: relative;
+  padding-top: 25px;
+  padding-left: 35px;
+  display: flex;
+}
+
+
+
+
+
+.lightning-one {
+    padding-left: 20px ;
+
+  height: 45px;
+  width: 45px;
+  
+}
+
+.find-trend{
+  padding-top: 7px;
+  margin-left: 10px;
+}
+
+.nav-menu  {
+      padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -84px;
+}
+
+.btn-wrapper  {
+  padding-top: 35px;
+ 
+  display: flex;
+  text-align: center;
+  
+}
+.register-btn {
+  position: relative;
+  top: 0;
+  text-align: center;
+  top: -10px;
+  padding-top: 10px;
+  background: red;
+  height: 28px;
+  width: 130px;
+  border-radius:20px;
+  
+   
+}
+
+.menu-item {
+  
+  margin-right: 20px;
+ 
+  font-size: 17px;
+}
+
+.login {
+  margin-right: 25px;
+}
+
+
+
+.hero-background {
+  background: url("https://i.ibb.co/kyGPSPY/Bg-hero-bkground.png") no-repeat center center;
+  
+  background-size: cover;
+  height: 600px;
+  max-width: 100%;
+}
+
+.font-color {
+  color: gray;
+}
+
+.center-container {
+  position: relative:
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.headline-bottom-margin {
+  margin-bottom: 20px;
+}
+
+.font-margin-headline {
+  
+  margin-right: 50px;
+  
+  font-size: 64px;
+  
+  
+}
+
+.tabs-description.first-line{
+  padding-top: 5px;
+  
+}
+
+.tabs-description.second-line {
+  margin-top: 3px;
+}
+
+
+.get-started-btn {
+  margin-top: 30px;
+  text-align: center;
+  top: -10px;
+  padding-top: 10px;
+  background: #a8ff35;
+  height: 28px;
+  width: 130px;
+  border-radius:20px;
+}
+
+
+
+
+.open-new-tabs{
+  background: #a8ff35;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.new-tabs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.headline-open-new-tabs {
+  font-size: 64px;
+  
+}
+
+.white-rectangle {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 200px;
+  width :450px;
+
+
+}
+
+.black-rectangle {
+  display:flex;
+  justify-content: center;
+  background: black;
+  height: 100px; 
+  width: 300px;
+
+}
+
+.rectangle-container {
+    display:flex;
+  align-items:center;
+  justify-content: center;
+
+}
+
+.lightning-two {
+ 
+  
+}
+
+.rectangle-text{
+  position: relative;
+  
+  
+}
+
+.fader {
+  
+  width: 30px;
+  height: 30px;
+  
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 1));;
+
+  
 }
