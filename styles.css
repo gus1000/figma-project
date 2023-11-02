@@ -1,6 +1,9 @@
 *{
   padding: 0;
   margin: 0;
+}
+
+.white-text{
   color: white;
 }
 
@@ -108,8 +111,7 @@ body {
 }
 
 .center-container {
-  position: relative:
-  z-index: 999;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -148,6 +150,7 @@ body {
   height: 28px;
   width: 130px;
   border-radius:20px;
+  margin-right: 75px;
 }
 
 
@@ -183,6 +186,9 @@ body {
   background: white;
   height: 200px;
   width :450px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
 
 
 }
@@ -191,7 +197,7 @@ body {
   display:flex;
   justify-content: center;
   background: black;
-  height: 100px; 
+  height: 80px;
   width: 300px;
 
 }
@@ -210,16 +216,202 @@ body {
 
 .rectangle-text{
   position: relative;
+  margin-left: 5px;
   
   
 }
+
+
 
 .fader {
   
-  width: 30px;
-  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
   
-    background: linear-gradient(to right, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 1));;
+  width: 46px;
+  height: 30px;
+  border-radius: 5px;
+  
+background: linear-gradient(to right, rgba(30,30, 30, 0.81) , rgba(0, 0, 0, 1));
+  
+}
+
+.product-container {
+ 
+  height: 1200px;
+}
+
+.product-font {
+  font-size: 32px;
+}
+
+.product-summary {
+  padding-right: 50px ;
+  padding-left: 50px ;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.statement{
+  padding-left: 90px;
+}
+
+.brand-container {
+  max-width: 2200px;
+   display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  margin-left: 50px ;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.brand {
+ 
+  height: 50px;
+  width: 25%;
+
+}
+
+.brand img {
+  width: 86%;
+  height: 120px ;
+}
+
+.faded-text {
+  color: rgba( 100 , 100 , 100, 0.5)
+  
+}
+
+.social-media {
+  font-size: 32px;
+  max-width: 2000px;
+  background: rgb(250, 250, 250);
+  
+  
+/*Be sure to check that all pages have the same dimensions    */
+}
+
+.social-media-summary {
+  
+  text-align: center;
+  
+
+  
+  padding-top: 55px;
+}
+
+.icons-container {
+  
+  padding-top: 70px;
+  
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 23px;
+  margin-right: 51px ;
 
   
 }
+
+.icon {
+
+}
+
+.icons-container img {
+  
+  
+}
+
+.icon-image {
+
+}
+
+.tweets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+      padding-bottom: 50px;
+
+    
+}
+
+.trend-btn-wrapper {
+  display:flex;
+  justify-content: center;
+    padding-bottom: 100px;
+
+
+ 
+
+  
+}
+
+.trend-btn {
+     padding-top: 13px;
+    background: black;
+    height: 29px;
+    width: 158px;
+    border-radius: 38px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+/* social media icons:
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/qdNfrmS/basketballicon.png" alt="basketballicon" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/tBxC0JR/Group-33.png" alt="Group-33" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Sm69NNF/k-icon.png" alt="k-icon" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/phgQm9N/linkicon.png" alt="linkicon" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/vYx8hnW/medium-icon.png" alt="medium-icon" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/tX0py8y/pininterest-icon.png" alt="pininterest-icon" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/JWZ0wLS/reddit-icon.png" alt="reddit-icon" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/GngYHq0/tweet-icon.png" alt="tweet-icon" border="0"></a>
+*/
+
+
+/*
+partner icons : 16:
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/wh4sNnK/airtable.png" alt="airtable" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/yFx49vD/algolia.png" alt="algolia" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/4fy0TtT/allanz.png" alt="allanz" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/brk2N2n/carrera.png" alt="carrera" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/nCqHLyv/coinbase.png" alt="coinbase" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/zbGGZ9S/expedia.png" alt="expedia" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Fq7sV4v/suzuki.png" alt="suzuki" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/ZGTDY6W/upwork.png" alt="upwork" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/mHzJ24w/verizon.png" alt="verizon" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Sm3D0Ft/volvo.png" alt="volvo" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/HgKBXpc/wetransfer.png" alt="wetransfer" border="0"></a>
+
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Fq7sV4v/suzuki.png" alt="suzuki" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/m8wVY6D/microsoft.png" alt="microsoft" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/0q02wcF/magento.png" alt="magento" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/NssY5bs/heineken.png" alt="heineken" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/4fy0TtT/allanz.png" alt="allanz" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/25VZJCF/grab.png" alt="grab" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Z1T57HB/boanaza.png " alt="boanaza" border="0"></a>
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Dzbg6cY/11.png" alt="11" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/0myG370/13.png" alt="13"
+
+
+
+social media icons:
+
+https://ibb.co/6mHxWDM
+https://ibb.co/2qsKzkJ
+https://ibb.co/7pS6vvs
+https://ibb.co/q17ZKW9
+https://ibb.co/DrNYqSm
+https://ibb.co/6BR58CS
+https://ibb.co/sHT9LyL
+https://ibb.co/mrp1VsP
+https://ibb.co/0mP4sxc
+
+*/
