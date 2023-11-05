@@ -1,32 +1,46 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-.white-text{
+
+
+li {
+  list-style: none;
+}
+
+.white-text {
   color: white;
 }
 
-h1, h3, h3, h4, h5, h6, img, nav, button, p{
+h1,
+h3,
+h3,
+h4,
+h5,
+h6,
+img,
+nav,
+button,
+p,
+ul,
+li,
+footer {
   padding: 0;
   margin: 0;
 }
 
-
 .black-text {
-  color:black;
+  color: black;
 }
 
-
-
-
 body {
-  background:white;
+  max-width: 2500px
+  background: white;
   margin: 0;
 }
 
 .navigation {
-
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -40,36 +54,30 @@ body {
   display: flex;
 }
 
-
-
-
-
 .lightning-one {
-    padding-left: 20px ;
+  padding-left: 20px;
 
   height: 45px;
   width: 45px;
-  
 }
 
-.find-trend{
+.find-trend {
   padding-top: 7px;
   margin-left: 10px;
 }
 
-.nav-menu  {
-      padding-top: 35px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: -84px;
+.nav-menu {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -84px;
 }
 
-.btn-wrapper  {
+.btn-wrapper {
   padding-top: 35px;
- 
+
   display: flex;
   text-align: center;
-  
 }
 .register-btn {
   position: relative;
@@ -80,15 +88,12 @@ body {
   background: red;
   height: 28px;
   width: 130px;
-  border-radius:20px;
-  
-   
+  border-radius: 20px;
 }
 
 .menu-item {
-  
   margin-right: 20px;
- 
+
   font-size: 17px;
 }
 
@@ -96,11 +101,10 @@ body {
   margin-right: 25px;
 }
 
-
-
 .hero-background {
-  background: url("https://i.ibb.co/kyGPSPY/Bg-hero-bkground.png") no-repeat center center;
-  
+  background: url("https://i.ibb.co/kyGPSPY/Bg-hero-bkground.png") no-repeat
+    center center;
+
   background-size: cover;
   height: 600px;
   max-width: 100%;
@@ -115,31 +119,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  
 }
 .headline-bottom-margin {
   margin-bottom: 20px;
 }
 
 .font-margin-headline {
-  
   margin-right: 50px;
-  
+
   font-size: 64px;
-  
-  
 }
 
-.tabs-description.first-line{
+.tabs-description.first-line {
   padding-top: 5px;
-  
 }
 
 .tabs-description.second-line {
   margin-top: 3px;
 }
-
 
 .get-started-btn {
   margin-top: 30px;
@@ -149,14 +146,11 @@ body {
   background: #a8ff35;
   height: 28px;
   width: 130px;
-  border-radius:20px;
+  border-radius: 20px;
   margin-right: 75px;
 }
 
-
-
-
-.open-new-tabs{
+.open-new-tabs {
   background: #a8ff35;
   height: 600px;
   width: 100%;
@@ -164,168 +158,150 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .new-tabs-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .headline-open-new-tabs {
   font-size: 64px;
-  
 }
 
 .white-rectangle {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   background: white;
   height: 200px;
-  width :450px;
+  width: 450px;
   margin-bottom: 50px;
   margin-top: 50px;
   border-radius: 20px;
-
-
 }
 
 .black-rectangle {
-  display:flex;
+  display: flex;
   justify-content: center;
   background: black;
   height: 80px;
   width: 300px;
-
 }
 
 .rectangle-container {
-    display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   justify-content: center;
-
 }
 
 .lightning-two {
- 
-  
 }
 
-.rectangle-text{
+.rectangle-text {
   position: relative;
   margin-left: 5px;
-  
-  
 }
 
-
-
 .fader {
-  
   position: absolute;
   top: 0;
   right: 0;
 
-  
   width: 46px;
   height: 30px;
   border-radius: 5px;
-  
-background: linear-gradient(to right, rgba(30,30, 30, 0.81) , rgba(0, 0, 0, 1));
-  
-}
 
-.product-container {
- 
-  height: 1200px;
+  background: linear-gradient(
+    to right,
+    rgba(30, 30, 30, 0.81),
+    rgba(0, 0, 0, 1)
+  );
 }
 
 .product-font {
   font-size: 32px;
 }
 
-.product-summary {
-  padding-right: 50px ;
-  padding-left: 50px ;
-  padding-top: 100px;
-  padding-bottom: 100px;
+.product-container {
+  max-width: 2000px;
+  
 }
 
-.statement{
-  padding-left: 90px;
+.statement {
+  
 }
+
+
+
 
 .brand-container {
-  max-width: 2200px;
-   display: flex;
+    margin: 0;
+
+  gap: 0px;
+   width: 800px;
+  height: auto;
+  display: flex;
   flex-wrap: wrap;
-  height: 600px;
-  margin-left: 50px ;
-  margin-right: 50px;
-  margin-top: 50px;
+  
 }
+
 
 .brand {
- 
-  height: 50px;
-  width: 25%;
 
+  width: 21%;
+  height:  100px;
+  box-sizing: border-box;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  
+ 
+  
+  
 }
 
-.brand img {
-  width: 86%;
-  height: 120px ;
+.brand-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .faded-text {
-  color: rgba( 100 , 100 , 100, 0.5)
-  
+  color: rgba(100, 100, 100, 0.5);
 }
 
 .social-media {
   font-size: 32px;
   max-width: 2000px;
   background: rgb(250, 250, 250);
-  
-  
-/*Be sure to check that all pages have the same dimensions    */
+
+  /*Be sure to check that all pages have the same dimensions    */
 }
 
 .social-media-summary {
-  
   text-align: center;
-  
 
-  
   padding-top: 55px;
 }
 
 .icons-container {
-  
   padding-top: 70px;
-  
+
   display: flex;
   justify-content: space-evenly;
-  margin-left: 23px;
-  margin-right: 51px ;
-
-  
+  margin-left: 70px;
+  margin-right: 70px;
+  gap: 15px;
 }
 
 .icon {
-
 }
 
 .icons-container img {
-  
-  
 }
 
 .icon-image {
-
 }
 
 .tweets-container {
@@ -333,33 +309,220 @@ background: linear-gradient(to right, rgba(30,30, 30, 0.81) , rgba(0, 0, 0, 1));
   flex-direction: column;
   justify-content: center;
   align-items: center;
-      padding-bottom: 50px;
-
-    
+  padding-bottom: 50px;
 }
 
 .trend-btn-wrapper {
-  display:flex;
+  display: flex;
   justify-content: center;
-    padding-bottom: 100px;
-
-
- 
-
-  
+  padding-bottom: 100px;
 }
 
 .trend-btn {
-     padding-top: 13px;
-    background: black;
-    height: 29px;
-    width: 158px;
-    border-radius: 38px;
-    font-size: 16px;
-    text-align: center;
-
+  padding-top: 13px;
+  background: black;
+  height: 29px;
+  width: 158px;
+  border-radius: 38px;
+  font-size: 16px;
+  text-align: center;
 }
 
+.deals {
+  background: black;
+  height: 920px;
+}
+
+.deals-header {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 48px;
+  padding-bottom: 40px;
+}
+
+.choices {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: -33px;
+}
+
+.empty-button {
+  background: #eeededf2;
+  height: 44px;
+  width: 82px;
+  border-radius: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.circle {
+  margin-top: 4px;
+  height: 35px;
+  width: 35px;
+  background: #a8ff35;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.yearly {
+  opacity: 0.4;
+}
+
+li,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.deal-container {
+  /*  row   */
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.deal-box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.personal {
+  padding-bottom: 128px;
+}
+
+.regular {
+  padding-bottom: 85px;
+}
+
+.deal-type {
+  text-align: start;
+  margin-left: 25px;
+  border-bottom: solid 1px black;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+.start-trial-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 25px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.start-trial-btn {
+  text-align: center;
+  border-radius: 5px;
+  height: 35px;
+  width: 220px;
+  background: red;
+
+  padding-top: 11px;
+}
+
+li {
+  margin: 27px;
+}
+
+svg {
+  margin-right: 2px;
+  height: 10px;
+  width: 10px;
+}
+
+.white {
+  background: white;
+}
+
+.lime {
+  background: rgb(168, 255, 53);
+}
+
+.black {
+  background: black;
+}
+
+.per-month {
+  font-size: 48px;
+}
+
+.white-text {
+  color: white;
+}
+
+.join-page {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.join-us {
+  font-size: 48px;
+  /*   padding-top: 300px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+}
+
+.join-us h2:nth-child(2) {
+  opacity: 0.5;
+}
+
+.join-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.join-btn {
+  margin-top: 50px;
+  padding-top: 13px;
+  background: black;
+  height: 29px;
+  width: 158px;
+  border-radius: 38px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.join-line {
+  padding-left: 35px;
+}
+
+.footer {
+  padding-top: 50px;
+  background: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  padding-top: 15px;
+  width: 39%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon {
+  width: 38%;
+}
+
+.black-lightning {
+}
 
 /* social media icons:
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/qdNfrmS/basketballicon.png" alt="basketballicon" border="0"></a>
@@ -371,7 +534,6 @@ background: linear-gradient(to right, rgba(30,30, 30, 0.81) , rgba(0, 0, 0, 1));
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/JWZ0wLS/reddit-icon.png" alt="reddit-icon" border="0"></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/GngYHq0/tweet-icon.png" alt="tweet-icon" border="0"></a>
 */
-
 
 /*
 partner icons : 16:
