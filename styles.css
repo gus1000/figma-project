@@ -40,66 +40,72 @@ body {
   margin: 0;
 }
 
+
 .navigation {
-  width: 100%;
+  padding-top: 25px ;
   display: flex;
-  justify-content: space-between;
-  padding-top: 15px;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.logo {
-  position: relative;
-  padding-top: 25px;
-  padding-left: 35px;
+.logo-container {
+  gap: 10px;
   display: flex;
-}
-
-.lightning-one {
-  padding-left: 20px;
-
-  height: 45px;
-  width: 45px;
-}
-
-.find-trend {
-  padding-top: 7px;
-  margin-left: 10px;
+  justify-content: start;
 }
 
 .nav-menu {
-  padding-top: 35px;
+  width: 50%;
   display: flex;
-  justify-content: space-between;
-  margin-left: -84px;
-}
-
-.btn-wrapper {
-  padding-top: 35px;
-
-  display: flex;
-  text-align: center;
-}
-.register-btn {
-  position: relative;
-  top: 0;
-  text-align: center;
-  top: -10px;
-  padding-top: 10px;
-  background: red;
-  height: 28px;
-  width: 130px;
-  border-radius: 20px;
+  justify-content: space-evenly;
+  
 }
 
 .menu-item {
-  margin-right: 20px;
-
-  font-size: 17px;
+ 
 }
 
-.login {
-  margin-right: 25px;
+.logo {
+  height: 40px;
+  width: 40px;
+  
 }
+
+.find-trend {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.white-text {
+  color: white
+}
+
+.btn-wrapper{
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register-btn-wrapper {
+  
+  
+ 
+
+}
+
+.register-btn {
+    text-align: center;
+    
+    padding-top: 10px;
+    background: white;
+    height: 28px;
+    width: 130px;
+    border-radius: 20px;
+}
+
 
 .hero-background {
   background: url("https://i.ibb.co/kyGPSPY/Bg-hero-bkground.png") no-repeat
@@ -224,23 +230,44 @@ body {
   font-size: 32px;
 }
 
+.description-container {
+  padding-top: 100px;
+        margin-bottom: 300px;
+
+}
+
 .product-container {
-  max-width: 2000px;
+    display: flex;
+    max-width: 2000px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+
+
+  
   
 }
 
 .statement {
+   
+
   
+}
+
+.findtrend-header {
+      margin-bottom: 50px;
+
 }
 
 
 
 
 .brand-container {
-    margin: 0;
+    margin-left: 135px;
 
   gap: 0px;
-   width: 800px;
+   width: 1000px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -272,9 +299,12 @@ body {
 }
 
 .social-media {
-  font-size: 32px;
-  max-width: 2000px;
-  background: rgb(250, 250, 250);
+ display: flex;
+    font-size: 32px;
+    max-width: 2000px;
+    background: rgb(250, 250, 250);
+    flex-direction: column;
+    align-items: center;
 
   /*Be sure to check that all pages have the same dimensions    */
 }
@@ -286,13 +316,13 @@ body {
 }
 
 .icons-container {
+  margin-left: -18px;
   padding-top: 70px;
+  gap:18px;
 
   display: flex;
   justify-content: space-evenly;
-  margin-left: 70px;
-  margin-right: 70px;
-  gap: 15px;
+  
 }
 
 .icon {
@@ -302,6 +332,8 @@ body {
 }
 
 .icon-image {
+  height: 97px;
+  width: 97px;
 }
 
 .tweets-container {
