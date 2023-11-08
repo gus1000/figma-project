@@ -3,8 +3,6 @@
   margin: 0;
 }
 
-
-
 li {
   list-style: none;
 }
@@ -35,40 +33,38 @@ footer {
 }
 
 body {
-  max-width: 2500px
+  max-width: 2500px;
   background: white;
   margin: 0;
 }
 
-
 .navigation {
-  padding-top: 25px ;
+  padding-top: 25px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .logo-container {
-  gap: 10px;
+  width: 15%;
+  gap: 5px;
   display: flex;
   justify-content: start;
 }
 
 .nav-menu {
-  width: 50%;
+  font-size: 14px;
   display: flex;
-  justify-content: space-evenly;
-  
+  justify-content: space-around;
 }
 
 .menu-item {
- 
+  margin-left: 20px;
 }
 
 .logo {
   height: 40px;
   width: 40px;
-  
 }
 
 .find-trend {
@@ -76,13 +72,11 @@ body {
   align-items: center;
 }
 
-
-
 .white-text {
-  color: white
+  color: white;
 }
 
-.btn-wrapper{
+.btn-wrapper {
   display: flex;
   gap: 25px;
   justify-content: space-between;
@@ -90,22 +84,25 @@ body {
 }
 
 .register-btn-wrapper {
-  
-  
- 
-
 }
 
 .register-btn {
-    text-align: center;
-    
-    padding-top: 10px;
-    background: white;
-    height: 28px;
-    width: 130px;
-    border-radius: 20px;
+  text-align: center;
+
+  padding-top: 10px;
+  background: white;
+  height: 28px;
+  width: 130px;
+  border-radius: 20px;
 }
 
+.second-line {
+  padding-left: 22px;
+}
+
+.login {
+  font-size: 14px;
+}
 
 .hero-background {
   background: url("https://i.ibb.co/kyGPSPY/Bg-hero-bkground.png") no-repeat
@@ -121,9 +118,12 @@ body {
 }
 
 .center-container {
-  padding-top: 50px;
+  width: 112%;
+  height: 67%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
   align-items: center;
 }
 .headline-bottom-margin {
@@ -232,60 +232,41 @@ body {
 
 .description-container {
   padding-top: 100px;
-        margin-bottom: 300px;
-
+  margin-bottom: 300px;
 }
 
 .product-container {
-    display: flex;
-    max-width: 2000px;
-    margin-right: 50px;
-    margin-bottom: 100px;
-    flex-direction: column;
-    align-items: center;
-
-
-  
-  
+  display: flex;
+  max-width: 2000px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .statement {
-   
-
-  
 }
 
 .findtrend-header {
-      margin-bottom: 50px;
-
+  margin-bottom: 50px;
 }
 
-
-
-
 .brand-container {
-    margin-left: 135px;
+  margin-left: 135px;
 
   gap: 0px;
-   width: 1000px;
+  width: 1000px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  
 }
 
-
 .brand {
-
   width: 21%;
-  height:  100px;
+  height: 100px;
   box-sizing: border-box;
   margin-right: 25px;
   margin-bottom: 25px;
-  
- 
-  
-  
 }
 
 .brand-image {
@@ -299,12 +280,12 @@ body {
 }
 
 .social-media {
- display: flex;
-    font-size: 32px;
-    max-width: 2000px;
-    background: rgb(250, 250, 250);
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  font-size: 32px;
+  max-width: 2000px;
+  background: rgb(250, 250, 250);
+  flex-direction: column;
+  align-items: center;
 
   /*Be sure to check that all pages have the same dimensions    */
 }
@@ -318,11 +299,10 @@ body {
 .icons-container {
   margin-left: -18px;
   padding-top: 70px;
-  gap:18px;
+  gap: 18px;
 
   display: flex;
   justify-content: space-evenly;
-  
 }
 
 .icon {
@@ -609,3 +589,13 @@ https://ibb.co/mrp1VsP
 https://ibb.co/0mP4sxc
 
 */
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .logo-container {
+    display: none;
+  }
+}
