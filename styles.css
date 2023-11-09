@@ -599,3 +599,236 @@ https://ibb.co/0mP4sxc
     display: none;
   }
 }
+
+
+
+
+@media screen and (max-width: 375px) and (max-height: 819px){
+  .find-trend {
+    display:none;
+    
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .login {
+    display: none;
+  }
+  .register-btn-wrapper{
+    display:none;
+  }
+  
+  
+  
+  .menu-logo {
+    fill:yellow;
+    display:block;
+    width: 35px;
+    height: 35px;
+}
+  
+  .navigation{
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  .get-started-btn black-text {
+    padding-left: 25px;
+  }
+  
+  .headline {
+  font-size: 22px;
+ 
+}
+  
+  .tabs-description {
+    font-size: 11px;
+    margin: 0 ;
+    line-height: 1.3;
+    padding-left: 35px;
+  }
+  
+  .banner-container {
+    padding-top: 25px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    
+  }
+  
+  .banner-one{
+    z-index: 11;
+    position: relative;
+    top: 25px;
+  }
+  
+  .banner-two{
+    z-index:9;
+    position: relative;
+    
+  }
+  
+  .banner-three {
+    z-index: 4;
+    position: relative;
+    top: -34px;
+  }
+  
+  .banner-four {
+    z-index: 2;
+    position: relative;
+    top: -55px;
+  }
+  
+ 
+  
+  
+  
+  
+  
+}
+
+/*  Open new tabs is sh*t!!! section */
+
+@media screen and (max-width: 375px)  {
+  
+  .headline-open-new-tabs {
+    position: relative;
+    padding-bottom: 50px ;
+    font-size:33px;
+  }
+  
+  .white-rectangle {
+       height: 118px;
+    width: 339px;
+     
+  }
+  
+  .black-rectangle {
+        height: 70px ;
+    width: 291px ;
+  }
+  
+  
+
+.lightning-two {
+    height: 20px;
+}
+  
+.caption{
+    font-size:  ;
+    text-align:  ;
+  }
+  
+  .paragraph-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .pointer-one{
+    height: 93px;
+    width: 64px;
+    position: relative;
+    top: 100px;
+    right: -65px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  
+  
+  .up-arrow {
+     height: 34px;
+    width: 28px;
+    
+    
+  }
+  
+  .down-arrow {
+    height: 34px;
+    width: 28px;
+    
+  }
+  
+  .pointer-two {
+      height: 93px;
+    width: 64px;
+    position: relative;
+    top: -66px;
+    right: 86px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  .need-one-tab {
+    position: relative;
+    top: 4px;
+    
+    
+    
+    
+}
+    
+    
+  
+  
+  .solutions {
+        position: relative;
+    top: 4px;
+    left: -31px;
+    
+  }
+ 
+  
+}
+
+
+/*
+open tab images :
+https://i.ibb.co/8MKPKbf/Arrow-03.png
+https://i.ibb.co/3Yx6s76/Arrow-4.png
+https://i.ibb.co/w6r1P4x/solution-for-discover-a-trend.png
+https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
+*/
+
+
+/*  3rd page */
+
+@media screen and (max-width: 375px) {
+  
+  .product-font {
+    font-size: 23px;
+  }
+  
+  .brand-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    height: 600px;
+    
+  }
+  
+  .brand {
+    height: 70px;
+    width: 160px
+    
+  }
+  
+  .brand-image {
+    
+      
+  }
+  
+  
+}
