@@ -20,7 +20,6 @@ footer {
   margin: 0;
 }
 
-
 li,
 ul {
   list-style: none;
@@ -55,7 +54,6 @@ body {
 .headline {
   font-size: 48px;
 }
-
 
 .navigation {
   padding-top: 25px;
@@ -92,8 +90,6 @@ body {
   align-items: center;
 }
 
-
-
 .btn-wrapper {
   display: flex;
   gap: 25px;
@@ -128,7 +124,6 @@ body {
 
   background-size: cover;
   max-width: 100%;
- 
 }
 
 .font-color {
@@ -146,7 +141,6 @@ body {
   padding-top: 100px;
   padding-bottom: 200px;
 }
-
 
 .headline-bottom-margin {
   margin-bottom: 20px;
@@ -195,7 +189,7 @@ body {
 }
 
 .open-new-tabs {
-    padding-top: 100px;
+  padding-top: 100px;
 
   background: #a8ff35;
   width: 100%;
@@ -266,6 +260,14 @@ body {
   );
 }
 
+.paragraph-container-first {
+  padding-bottom: 150px;
+}
+
+.caption-of-tab {
+  font-size: 21px;
+}
+
 .product-font {
   font-size: 32px;
 }
@@ -278,8 +280,6 @@ body {
 .hide {
   display: none;
 }
-
-
 
 .product-container {
   display: flex;
@@ -432,8 +432,6 @@ body {
   opacity: 0.4;
 }
 
-
-
 .deal-container {
   /*  row   */
   display: flex;
@@ -447,6 +445,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 20px;
+  margin-bottom: 100px;
 }
 
 .personal {
@@ -483,7 +482,6 @@ body {
   border-radius: 5px;
   height: 35px;
   width: 220px;
-  background: red;
 
   padding-top: 11px;
 }
@@ -497,8 +495,6 @@ svg {
   height: 10px;
   width: 10px;
 }
-
-
 
 .per-month {
   font-size: 48px;
@@ -515,7 +511,7 @@ svg {
 
 .join-us {
   font-size: 48px;
-  /*   padding-top: 300px; */
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -557,11 +553,26 @@ svg {
   justify-content: space-around;
 }
 
+.footer-container {
+  display: flex;
+}
+
+.footer-trend {
+  padding-top: 4px;
+  padding-left: 3px;
+}
+
 .info {
+  padding-left: 130px;
+  font-size: 12px;
   padding-top: 15px;
   width: 39%;
   display: flex;
   justify-content: space-between;
+}
+
+.info-item {
+  margin: 0;
 }
 
 .footer-icon {
@@ -691,13 +702,17 @@ svg {
   .caption {
     font-size: ;
     text-align: ;
+    margin-bottom: ;
   }
 
-  .paragraph-container {
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    align-items: center;
+  .paragraph-container-first {
+    display: none;
+  }
+
+  .paragraph-container-second {
+    display: block;
+    padding-bottom: 150px;
+    line-height: 1.3;
   }
 
   .pointer-one {
@@ -739,6 +754,10 @@ svg {
     position: relative;
     top: 4px;
     left: -31px;
+  }
+
+  .hide {
+    display: none;
   }
 }
 
@@ -785,7 +804,7 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
 
   .brand-container {
     margin-top: 35px;
-    margin-left: 0;
+    margin-left: 100px;
     width: 375px;
     display: flex;
     gap: 15px;
@@ -795,10 +814,14 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
     width: 150px;
     height: 65px;
     margin-right: 0;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
 
   .brand-image {
+    margin-left: 54px;
+    width: 60%;
+    height: auto;
+    display: block;
   }
 }
 
@@ -839,10 +862,12 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
 
 @media screen and (max-width: 375px) {
   .deals-header {
+    padding-right: 300px;
     font-size: 33px;
   }
 
   .choices {
+    padding-right: 230px;
     margin-left: -14px;
   }
 
@@ -933,5 +958,336 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
   .nav-menu {
     display: flex;
     flex-direction: column;
+  }
+}
+
+/*  Adjusting the size of the Register and Find trend button */
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    padding-top: 4px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .nav-menu {
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-wrapper {
+    margin-left: -53px;
+  }
+
+  .register-btn-wrapper {
+  }
+
+  .register-btn {
+    height: 14px;
+    width: 80px;
+    text-align: center;
+    padding-top: 10px;
+
+    border-radius: 20px;
+    padding-bottom: 15px;
+  }
+
+  .login {
+    font-size: 14px;
+  }
+
+  .headline-wrapper {
+    margin-bottom: 5px;
+  }
+
+  .headline {
+    font-size: 32px;
+  }
+
+  .get-started-btn-wrapper {
+    margin-top: -10px;
+  }
+
+  .tabs-description {
+    font-size: 11px;
+  }
+
+  .headline-open-new-tabs {
+    font-size: 36px;
+  }
+
+  .white-rectangle {
+    height: 140px;
+    width: 420px;
+  }
+
+  .paragraph-container {
+    text-align: center;
+  }
+
+  .caption-of-tab {
+    font-size: 21px;
+  }
+
+  .product-container {
+    font-size: 33px;
+
+    display: flex;
+    max-width: 2000px;
+    /* margin-right: 50px; */
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand-container {
+    /* margin-left: 135px; */
+    gap: 0px;
+    width: 600px;
+    height: auto;
+
+    /* height: auto; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    width: 201px;
+    /* height: 100px; */
+    box-sizing: border-box;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .brand-image {
+    margin-left: 58px;
+    width: 71%;
+    height: auto;
+    display: block;
+  }
+
+  .description-container {
+    margin-left: 15px;
+  }
+
+  .findtrend-header {
+    margin-left: 40px;
+  }
+
+  .social-media-summary {
+    font-size: 50px;
+    margin-left: -9px;
+    text-align: center;
+    padding-top: 55px;
+  }
+
+  .icons-container {
+    margin-left: 190px;
+    padding-top: 70px;
+    gap: 12px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .icon-image {
+    height: 78px;
+    width: 81px;
+  }
+
+  .deals {
+    width: 600px;
+  }
+
+  .deal-container {
+    gap: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+  }
+
+  .join-us {
+    font-size: 36px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+  }
+
+  .empty-button {
+    background: #eeededf2;
+    height: 29px;
+    width: 69px;
+    border-radius: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .circle {
+    margin-top: 4px;
+    height: 20px;
+    width: 20px;
+    background: #a8ff35;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+
+  .deal-box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 0px;
+  }
+
+  .info {
+    padding-left: 130px;
+    font-size: 12px;
+    padding-top: 15px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  element.style {
+  }
+  .footer {
+    flex-direction: column;
+    padding-top: 50px;
+    background: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+  }
+
+  .black-lightning {
+    height: 33px;
+  }
+  .footer-container {
+    padding-right: 53px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .menu-logo {
+    display: none;
+  }
+
+  .get-started-btn {
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background: #a8ff35;
+    height: 28px;
+    width: 130px;
+    border-radius: 20px;
+    margin-right: 100px;
+  }
+
+  .banner-container {
+    width: 160px;
+  }
+
+  .banner-one {
+    z-index: 11;
+    position: relative;
+    top: 20px;
+  }
+
+  .banner-two {
+    z-index: 9;
+    position: relative;
+    top: 8px;
+  }
+  .banner-three {
+    z-index: 4;
+    position: relative;
+    top: -4px;
+  }
+  .banner-four {
+    z-index: 2;
+    position: relative;
+    top: -14px;
+  }
+
+  .headline-open-new-tabs {
+    font-size: 14px;
+  }
+
+  .paragraph-container-second {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 8.5px;
+    text-align: justify;
+  }
+
+  .white-rectangle {
+    margin-left: -17px;
+    height: 66px;
+    width: 200px;
+  }
+
+  .statement,
+  .findtrend-makes,
+  .startup-line {
+    font-size: 16px;
+  }
+
+  .findtrend-makes {
+    margin-right: 200px;
+  }
+  .startup-line {
+    margin-right: 204px;
+  }
+
+  .brand-container {
+    margin-right: 364px;
+    gap: 0px;
+    width: 199px;
+    height: auto;
+    /* height: auto; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .social-media-summary {
+    font-size: 26px;
+    margin-left: -9px;
+    text-align: center;
+    padding-top: 55px;
+  }
+
+  .icons-container {
+    margin-left: 197px;
+    padding-top: 70px;
+    gap: 12px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .icon-image {
+    height: 68px;
+    width: 73px;
   }
 }
