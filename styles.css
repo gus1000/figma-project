@@ -52,7 +52,7 @@ body {
 }
 
 .headline {
-  font-size: 48px;
+  font-size: 72px;
 }
 
 .navigation {
@@ -76,8 +76,18 @@ body {
   justify-content: space-around;
 }
 
+.hidden-nav-menu {
+  display: none;
+}
+
+
+
 .menu-item {
   margin-left: 20px;
+}
+
+.close-icon {
+  display: none
 }
 
 .logo {
@@ -153,14 +163,18 @@ body {
 }
 
 .tabs-description {
-  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
   margin: 0;
   line-height: ;
-  padding-left: 55px;
+  margin-right: 65px;
 }
 
 .line-two {
-  padding-left: 56px;
+  padding-left: 30px;
 }
 
 .get-started-btn-wrapper {
@@ -168,20 +182,25 @@ body {
 }
 
 .get-started-btn {
-  margin-top: 30px;
-  text-align: center;
-  padding-top: 10px;
-  background: #a8ff35;
-  height: 28px;
-  width: 130px;
-  border-radius: 20px;
-  margin-right: 75px;
+    font-size: 23px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background: #a8ff35;
+    height: 38px;
+    width: 170px;
+    border-radius: 20px;
+    margin-right: 176px;
+}
+
+.hidden-menu-logo {
+  display: none;
+  height: 30px;
+  width: 30px;
 }
 
 .menu-logo {
   display: none;
-  height: 30px;
-  width: 30px;
 }
 
 .banner-container {
@@ -215,7 +234,7 @@ body {
   justify-content: center;
   background: white;
   height: 200px;
-  width: 450px;
+  width: 502px;
   margin-bottom: 50px;
   margin-top: 50px;
   border-radius: 20px;
@@ -244,6 +263,14 @@ body {
   margin-left: 5px;
 }
 
+.pointer-one {
+  display: none
+}
+
+.pointer-two {
+  display: none;
+}
+
 .fader {
   position: absolute;
   top: 0;
@@ -260,24 +287,53 @@ body {
   );
 }
 
-.paragraph-container-first {
+.original-paragraph-container {
   padding-bottom: 150px;
 }
 
+.hide-paragraph-container {
+  display: none;
+}
+
 .caption-of-tab {
-  font-size: 21px;
+  font-size: 18px;
+}
+
+.caption-line-two {
+  margin-left: 125px;
 }
 
 .product-font {
-  font-size: 32px;
+  font-size: 43px;
 }
 
 .description-container {
+  
   padding-top: 100px;
-  margin-bottom: 160px;
+ 
+  margin-bottom: 100px;
 }
 
-.hide {
+.title-brand-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+.findtrend-header {
+}
+
+
+.findtrend-header-text {
+  padding-right: ;
+  margin-bottom: 15px;
+}
+
+
+
+.hidden-findtrend-header {
   display: none;
 }
 
@@ -290,11 +346,11 @@ body {
   align-items: center;
 }
 
-.statement {
-}
+
 
 .findtrend-header {
-  margin-bottom: 50px;
+  padding-left: 0;
+
 }
 
 .findtrend-makes {
@@ -302,26 +358,26 @@ body {
 }
 
 .brand-container {
-  margin-left: 135px;
-
-  gap: 0px;
-  width: 1000px;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .brand {
-  width: 21%;
-  height: 100px;
-  box-sizing: border-box;
-  margin-right: 25px;
-  margin-bottom: 25px;
+  
+  width: calc(25% - 30px);
+      
+     box-sizing: border-box;
+    margin: 7.5px 15px;
+}
 }
 
 .brand-image {
-  height: 100%;
-  width: 100%;
+    width: 100%;
   object-fit: cover;
 }
 
@@ -348,23 +404,18 @@ body {
 }
 
 .icons-container {
-  margin-left: -18px;
-  padding-top: 70px;
-  gap: 18px;
-
-  display: flex;
-  justify-content: space-evenly;
+    padding-top: 70px;
+    gap: 25px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.icon {
-}
 
-.icons-container img {
-}
+
+
 
 .icon-image {
-  height: 97px;
-  width: 97px;
+  
 }
 
 .tweets-container {
@@ -395,6 +446,15 @@ body {
   background: black;
 }
 
+.deal-box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+
 .deals-header {
   padding-top: 100px;
   text-align: center;
@@ -403,18 +463,19 @@ body {
 }
 
 .choices {
+  font-size: 24px;
   justify-content: center;
   display: flex;
   align-items: center;
   margin-bottom: 30px;
-  margin-left: -33px;
+  margin-right: 33px;
 }
 
 .empty-button {
   background: #eeededf2;
   height: 44px;
-  width: 82px;
-  border-radius: 18px;
+  min-width: 82px;
+  border-radius: 50px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -479,7 +540,7 @@ body {
 
 .start-trial-btn {
   text-align: center;
-  border-radius: 5px;
+  border-radius: 20px;
   height: 35px;
   width: 220px;
 
@@ -548,9 +609,9 @@ svg {
 .footer {
   padding-top: 50px;
   background: white;
-  height: 100px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .footer-container {
@@ -559,20 +620,20 @@ svg {
 
 .footer-trend {
   padding-top: 4px;
-  padding-left: 3px;
+  padding-left: 10px;
 }
 
 .info {
-  padding-left: 130px;
+  padding-left: 150px;
   font-size: 12px;
   padding-top: 15px;
-  width: 39%;
   display: flex;
   justify-content: space-between;
 }
 
 .info-item {
-  margin: 0;
+  font-size: 16px;
+  margin: 0 25px;
 }
 
 .footer-icon {
@@ -586,11 +647,21 @@ svg {
   display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 888px) {
   .logo {
     padding-left: 15px;
     height: 40px;
     width: 40px;
+  }
+  
+  .close-icon {
+    display: none;
+  }
+  
+ 
+  
+  .hidden-nav-menu, .nav-menu  {
+    display: none !important;
   }
 
   .logo-container {
@@ -615,9 +686,15 @@ svg {
     display: none;
   }
 
-  .menu-logo {
-    padding-right: 15px;
+  .hidden-menu-logo {
+    margin-right: 15px;
     display: block;
+  }
+
+  .menu-logo {
+    fill: white;
+    display: none;
+    padding-right: 15px;
     width: 35px;
     height: 35px;
   }
@@ -627,19 +704,32 @@ svg {
     justify-content: space-between;
   }
 
-  .get-started-btn black-text {
-    padding-left: 25px;
+  .get-started-btn  {
+        font-size: 19px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background: #a8ff35;
+    height: 31px;
+    width: 146px;
+    border-radius: 20px;
+    margin-right: 107px;
   }
 
   .headline {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .tabs-description {
-    font-size: 11px;
-    margin: 0;
-    line-height: 1.3;
-    padding-left: 35px;
+    width: 280px; 
+    font-size: 15px; 
+    margin: 0; 
+    line-height: 1.3; 
+    padding-left: 13px;
+  }
+  
+  .line-two {
+    padding-left: 1px;
   }
 
   .banner-container {
@@ -686,6 +776,7 @@ svg {
   }
 
   .white-rectangle {
+    margin: 12px 10px;
     height: 118px;
     width: 325px;
   }
@@ -705,12 +796,14 @@ svg {
     margin-bottom: ;
   }
 
-  .paragraph-container-first {
+  .original-paragraph-container {
     display: none;
   }
 
-  .paragraph-container-second {
-    display: block;
+  .hide-paragraph-container {
+        text-align: center;
+    flex-direction: column;
+    display: flex;
     padding-bottom: 150px;
     line-height: 1.3;
   }
@@ -719,7 +812,7 @@ svg {
     height: 93px;
     width: 64px;
     position: relative;
-    top: 100px;
+    top: 70px;
     right: -65px;
     display: flex;
     flex-direction: column;
@@ -739,7 +832,7 @@ svg {
     height: 93px;
     width: 64px;
     position: relative;
-    top: -66px;
+    top: -29px;
     right: 86px;
     display: flex;
     flex-direction: column;
@@ -773,9 +866,15 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
 
 @media screen and (max-width: 375px) {
   .description-container {
-    width: 335px;
-    margin-right: 33px;
+    
     font-size: 24px;
+  }
+  
+ 
+  
+   .findtrend-header {
+     
+     
   }
 
   .product-container {
@@ -787,9 +886,7 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
     font-size: 26px;
   }
 
-  .findtrend-header {
-    display: none;
-  }
+  
 
   .startup-line {
     font-size: 36px;
@@ -799,103 +896,165 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
   .findtrend-makes {
     display: block;
     font-size: 36px;
-    margin-right: 33px;
+    margin-right: 48px;
   }
+  
+ 
+  
+  
 
   .brand-container {
-    margin-top: 35px;
-    margin-left: 100px;
-    width: 375px;
-    display: flex;
-    gap: 15px;
+     display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 335px;
   }
 
   .brand {
-    width: 150px;
-    height: 65px;
-    margin-right: 0;
-    margin-bottom: 10px;
+    width: calc(50% - 15px);
+      
+     box-sizing: border-box;
+    margin: 7.5px 7px;
   }
 
   .brand-image {
-    margin-left: 54px;
-    width: 60%;
-    height: auto;
-    display: block;
+    width: 100%;
+    
   }
 }
 
 /* social media icons  */
 @media screen and (max-width: 375px) {
-  .tweets-container {
-    max-width: 375px;
-    background: #fafafa;
-  }
+
 
   .social-media-summary {
+    margin-left: 10px;
     font-size: 33px;
     text-align: center;
     padding-top: 55px;
   }
+  
+  
 
   .icons-container {
+    
+        overflow-x: scroll;
+
+    
+
     padding-top: 40px;
 
-    padding-left: 147px;
+    padding-left: 100px;
 
     width: 375px;
-    margin-left: 125px;
+    margin-left: 136px;
     /* padding-top: 70px; */
-    /* gap: 18px; */
+    gap: 10px;
     display: flex;
   }
 
   .icon-image {
-    height: 56px;
-    width: 56px;
+    height: 60px;
+    width: 63px;
   }
-
+  
   .tweets-container {
-    width: 300px;
-  }
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
-@media screen and (max-width: 375px) {
+  
+}
+
+@media screen and (max-width: 755px) {
   .deals-header {
-    padding-right: 300px;
-    font-size: 33px;
+    margin-left: -30px;
+    font-size: 36px;
   }
 
   .choices {
-    padding-right: 230px;
-    margin-left: -14px;
-  }
+    display: flex; align-items: center; margin-bottom: 30px; margin-left: 0; justify-content: space-around;
+}
 
   .monthly,
   .yearly {
-    font-size: 16px;
+    font-size: 18px;
+  }
+  
+  .monthly {
+    margin-left: 84px;
+  }
+  
+  .yearly {
+    margin-right: 62px;
   }
 
   .save-image {
     position: relative;
     top: -39px;
-    left: 217px;
+    left: 240px;
     display: block;
     width: 63px;
     height: 65px;
   }
+  
+  .empty-button {
+        padding-left: 48px;
+    background: #eeededf2;
+    height: 44px;
+    width: 27px;
+    border-radius: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+  
+  .circle {
+        margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    background: #a8ff35;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+  
+  .save-image {
+    position: relative;
+    top: -38px;
+    left: 240px;
+    display: block;
+    width: 63px;
+    height: 65px;
+}
 
-  .deals {
-    height: 2100px;
-  }
+ 
 
   .deal-container {
     display: flex;
     flex-direction: column;
     width: 375px;
     margin-left: 20px;
-    gap: 20px;
+    gap: 13px;
     margin-bottom: ;
+  }
+  
+  
+  .deal-box {
+    margin-top: -20px;
+    margin-left: -8px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+  
+  .third-box {
+    margin-bottom: 75px;
   }
 }
 
@@ -917,7 +1076,7 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 917px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -926,6 +1085,9 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
   }
 
   .info {
+    font-size: 18px;
+    gap: 40px;
+    padding-left: 0;
     width: 375px;
     display: flex;
     flex-direction: column;
@@ -942,352 +1104,41 @@ https://i.ibb.co/Z2Fb8pz/You-just-need-one-tab-now.png
   }
 
   .footer-container {
+    padding-right: 0px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  
+  .info-item-bottom {
+    margin-bottom: 50px;
   }
 }
 
 /* first page with menu. iphone  11 pro - X2   */
 
-@media screen and (max-width: 375px) and (max-height: 639px) {
-  .menu-logo {
-    display: none;
-  }
 
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 /*  Adjusting the size of the Register and Find trend button */
 
-@media screen and (max-width: 600px) {
-  .navigation {
-    margin-left: 15px;
-    margin-right: 15px;
-    display: flex;
-    justify-content: space-between;
-  }
 
-  .logo {
-    padding-top: 4px;
-    height: 20px;
-    width: 20px;
-  }
-
+@media screen and (max-width: 807px) {
+  
   .nav-menu {
-    display: flex;
-    font-size: 13px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .btn-wrapper {
-    margin-left: -53px;
-  }
-
-  .register-btn-wrapper {
-  }
-
-  .register-btn {
-    height: 14px;
-    width: 80px;
-    text-align: center;
-    padding-top: 10px;
-
-    border-radius: 20px;
-    padding-bottom: 15px;
-  }
-
-  .login {
-    font-size: 14px;
-  }
-
-  .headline-wrapper {
-    margin-bottom: 5px;
-  }
-
-  .headline {
-    font-size: 32px;
-  }
-
-  .get-started-btn-wrapper {
-    margin-top: -10px;
-  }
-
-  .tabs-description {
-    font-size: 11px;
-  }
-
-  .headline-open-new-tabs {
-    font-size: 36px;
-  }
-
-  .white-rectangle {
-    height: 140px;
-    width: 420px;
-  }
-
-  .paragraph-container {
-    text-align: center;
-  }
-
-  .caption-of-tab {
-    font-size: 21px;
-  }
-
-  .product-container {
-    font-size: 33px;
-
-    display: flex;
-    max-width: 2000px;
-    /* margin-right: 50px; */
-    margin-bottom: 100px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .brand-container {
-    /* margin-left: 135px; */
-    gap: 0px;
-    width: 600px;
-    height: auto;
-
-    /* height: auto; */
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .brand {
-    width: 201px;
-    /* height: 100px; */
-    box-sizing: border-box;
-    margin-right: 0px;
-    margin-bottom: 10px;
-  }
-
-  .brand-image {
-    margin-left: 58px;
-    width: 71%;
-    height: auto;
-    display: block;
-  }
-
-  .description-container {
-    margin-left: 15px;
-  }
-
-  .findtrend-header {
-    margin-left: 40px;
-  }
-
-  .social-media-summary {
-    font-size: 50px;
-    margin-left: -9px;
-    text-align: center;
-    padding-top: 55px;
-  }
-
-  .icons-container {
-    margin-left: 190px;
-    padding-top: 70px;
-    gap: 12px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .icon-image {
-    height: 78px;
-    width: 81px;
-  }
-
-  .deals {
-    width: 600px;
-  }
-
-  .deal-container {
-    gap: 20px;
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 100px;
-  }
-
-  .join-us {
-    font-size: 36px;
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-    align-items: center;
-  }
-
-  .empty-button {
-    background: #eeededf2;
-    height: 29px;
-    width: 69px;
-    border-radius: 18px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .circle {
-    margin-top: 4px;
-    height: 20px;
-    width: 20px;
-    background: #a8ff35;
-    border-radius: 50%;
-    margin-left: 5px;
-  }
-
-  .deal-box {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 20px;
-    margin-bottom: 0px;
-  }
-
-  .info {
-    padding-left: 130px;
-    font-size: 12px;
-    padding-top: 15px;
-    width: 55%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-
-  element.style {
-  }
-  .footer {
-    flex-direction: column;
-    padding-top: 50px;
-    background: white;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
-    align-items: center;
-  }
-
-  .black-lightning {
-    height: 33px;
-  }
-  .footer-container {
-    padding-right: 53px;
-    margin: 0;
-    justify-content: center;
-    display: flex;
-  }
-}
-
-@media screen and (max-width: 240px) {
-  .menu-logo {
     display: none;
   }
+  
+  
+  .hidden-nav-menu {
+    display: none;
+  }
+  
+ 
+  
+  
+}
 
-  .get-started-btn {
-    margin-top: 30px;
-    text-align: center;
-    padding-top: 10px;
-    background: #a8ff35;
-    height: 28px;
-    width: 130px;
-    border-radius: 20px;
-    margin-right: 100px;
-  }
-
-  .banner-container {
-    width: 160px;
-  }
-
-  .banner-one {
-    z-index: 11;
-    position: relative;
-    top: 20px;
-  }
-
-  .banner-two {
-    z-index: 9;
-    position: relative;
-    top: 8px;
-  }
-  .banner-three {
-    z-index: 4;
-    position: relative;
-    top: -4px;
-  }
-  .banner-four {
-    z-index: 2;
-    position: relative;
-    top: -14px;
-  }
-
-  .headline-open-new-tabs {
-    font-size: 14px;
-  }
-
-  .paragraph-container-second {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    font-size: 8.5px;
-    text-align: justify;
-  }
-
-  .white-rectangle {
-    margin-left: -17px;
-    height: 66px;
-    width: 200px;
-  }
-
-  .statement,
-  .findtrend-makes,
-  .startup-line {
-    font-size: 16px;
-  }
-
-  .findtrend-makes {
-    margin-right: 200px;
-  }
-  .startup-line {
-    margin-right: 204px;
-  }
-
-  .brand-container {
-    margin-right: 364px;
-    gap: 0px;
-    width: 199px;
-    height: auto;
-    /* height: auto; */
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .social-media-summary {
-    font-size: 26px;
-    margin-left: -9px;
-    text-align: center;
-    padding-top: 55px;
-  }
-
-  .icons-container {
-    margin-left: 197px;
-    padding-top: 70px;
-    gap: 12px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .icon-image {
-    height: 68px;
-    width: 73px;
-  }
+  
+  
 }
