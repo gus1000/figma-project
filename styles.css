@@ -86,9 +86,7 @@ body {
   margin-left: 20px;
 }
 
-.close-icon {
-  display: none
-}
+
 
 .logo {
   height: 40px;
@@ -182,14 +180,15 @@ body {
 }
 
 .get-started-btn {
-    font-size: 23px;
+   font-family: sans-serif;
+    font-size: 21px;
     margin-top: 30px;
     text-align: center;
     padding-top: 10px;
     background: #a8ff35;
-    height: 38px;
-    width: 170px;
-    border-radius: 20px;
+    height: 39px;
+    width: 159px;
+    border-radius: 21px;
     margin-right: 176px;
 }
 
@@ -255,12 +254,25 @@ body {
 }
 
 .lightning-two {
+  paddding-right: 10px;
   height: 30px;
 }
 
 .rectangle-text {
+  font-weight: 500;
+    font-size: 23.5px;
+    position: relative;
+    margin-left: 5px;
   position: relative;
   margin-left: 5px;
+}
+
+.close-tab-icon {
+
+  fill: white;
+  display: block ;
+  height: 15px;
+  width: 15px;
 }
 
 .pointer-one {
@@ -276,7 +288,7 @@ body {
   top: 0;
   right: 0;
 
-  width: 46px;
+  width: 54px;
   height: 30px;
   border-radius: 5px;
 
@@ -654,9 +666,7 @@ svg {
     width: 40px;
   }
   
-  .close-icon {
-    display: none;
-  }
+ 
   
  
   
