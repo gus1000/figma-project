@@ -1,0 +1,351 @@
+// const linkAbout = document.querySelector("#link-about");
+
+// console.log(linkAbout);
+// const linkHowItWorks = document.querySelector("#link-how-it-works");
+// console.log(linkHowItWorks);
+// const linkPricing = document.querySelector("#link-pricing");
+// console.log(linkPricing);
+
+// const linkSolution = document.querySelector("#link-solution");
+// console.log(linkSolution);
+
+// const linkFeatures = document.querySelector("#link-features");
+// console.log(linkFeatures);
+
+// const login = document.querySelector("#login");
+// console.log(login);
+
+// const linkRegister = document.querySelector("#link-register");
+// console.log(linkRegister);
+
+// const minimizeYourTabs = document.querySelector("#tabs-advice-line-one");
+// console.log(minimizeYourTabs);
+
+// const findYourTrends = document.querySelector("#tabs-advice-line-two");
+// console.log(findYourTrends);
+
+// const getStarted = document.querySelector("#get-started");
+// console.log(getStarted);
+
+// const elonMuskTab= document.querySelector("#elon-Musk-tab");
+// console.log(elonMuskTab);
+
+// const newTabStatement = document.querySelector("#new-tab-statement");
+// console.log(newTabStatement);
+
+// const captionOne = document.querySelector("#caption-one");
+// console.log(captionOne);
+
+// const captionTwo = document.querySelector("#caption-two");
+// console.log(captionTwo);
+
+// const paragraphLineOne = document.querySelector("#paragraph-line-one");
+// console.log(paragraphLineOne);
+
+// const paragraphLineTwo = document.querySelector("#paragraph-line-two");
+// console.log(paragraphLineTwo);
+
+// const paragraphLineThree = document.querySelector("#paragraph-line-three");
+// console.log(paragraphLineThree);
+
+// const statementOne = document.querySelector("#statement-one");
+// console.log(statementOne);
+
+// const statementTwo = document.querySelector("#statement-two");
+// console.log(statementTwo);
+
+// const statementThree = document.querySelector("#statement-three");
+// console.log(statementThree);
+
+// const fadingText = document.querySelector("#fading-text");
+// console.log(fadingText);
+
+// const startupsHeader = document.querySelector("#startups-header");
+// console.log(startupsHeader);
+
+// const iconHeader = document.querySelector("#icon-header");
+// console.log(iconHeader);
+
+// const dealHeader = document.querySelector("#deal-header");
+// console.log(dealHeader);
+
+// const monthlyHead = document.querySelector("#monthly-subhead");
+// console.log(monthlyHead);
+
+// const yearlySubhead = document.querySelector("#yearly-subhead");
+// console.log(yearlySubhead);
+
+// const personal = document.querySelector("#personal");
+// console.log(personal);
+
+// const personalPacket = document.querySelector("#personal-packet");
+// console.log(personalPacket);
+
+// const fivePerMonth = document.querySelector("#five-per-Month");
+// console.log(fivePerMonth);
+
+// const tenPages = document.querySelector("#ten-pages");
+// console.log(tenPages);
+
+// const tenGroupPages = document.querySelector("#ten-group-pages");
+// console.log(tenGroupPages);
+
+// const fiveSavedPages = document.querySelector("#five-saved-pages");
+// console.log(fiveSavedPages);
+
+// const startFreeTrialOne = document.querySelector("#start-free-trial-one");
+// console.log(startFreeTrialOne);
+
+// const recommended = document.querySelector("#recommended");
+// console.log(recommended);
+
+// const twenty = document.querySelector("#fiftenen-pages");
+// console.log(twenty);
+
+// const fifteenGroupPagesSaved = document.querySelector("#fifteen-group-pages-saved");
+// console.log(fifteenGroupPagesSaved);
+
+// const startFreeTrialBtnTwo = document.querySelector("#free-trial-btn-two");
+// console.log(startFreeTrialBtnTwo);
+
+// const premium = document.querySelector("#premium");
+// console.log(premium);
+
+// const packetForStartUp = document.querySelector("#packet-for-startup");
+// console.log(packetForStartUp);
+
+// const fortyEightDollars = document.querySelector("#forty-eight-dollars");
+// console.log(fortyEightDollars);
+
+// const unlimitedGroupPages = document.querySelector("#unlimited-group-pages");
+// console.log(unlimitedGroupPages);
+
+// const unlimitedDownloads = document.querySelector("#unlimited-downloads");
+// console.log(unlimitedDownloads);
+
+// const unlimitedPages = document.querySelector("#unlimitedPages");
+// console.log(unlimitedPages);
+
+// const  customizableGroupPages = document.querySelector("#customizable-group-pages");
+// console.log(customizableGroupPages);
+
+// const startFreeTrialThree = document.querySelector("#start-free-trial-three");
+// console.log(startFreeTrialThree);
+
+// const joinUsHeaderOne = document.querySelector("#join-us-header-one");
+// console.log(joinUsHeaderOne);
+
+// const joinUsHeaderTwo = document.querySelector("#join-us-header-two");
+// console.log(joinUsHeaderTwo);
+
+// const joinNow = document.querySelector("#join-now-btn");
+// console.log(joinNow);
+
+// const footerTrend = document.querySelector("#find-trend-logo-text");
+// console.log(footerTrend);
+
+// const linkPrivacyPolicy = document.querySelector("#link-privacy-policy");
+// console.log(linkPrivacyPolicy);
+
+// const linkTermsAndConditions = document.querySelector("#link-terms-and-conditions");
+// console.log(linkTermsAndConditions);
+
+// const linkContactUs = document.querySelector("#link-contact-us");
+// console.log(linkContactUs);
+
+// const linkCareers = document.querySelector("#link-careers");
+// console.log(linkCareers);
+
+let placeholder = document.querySelector(".menu-item#link-about");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".menu-item#link-how-it-works");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".menu-item#link-pricing");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".menu-item#link-solution");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".menu-item#link-features");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".login#link-login");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".register-btn#link-register");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".headline#minimize-your-tabs");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#tabs-advice-line-one");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#tabs-advice-line-two");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".get-started-btn#get-started");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(
+  ".headline-open-new-tabs#new-tab-statement"
+);
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".rectangle-text#elon-Musk-tab");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".caption-of-tab#caption-one");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".caption-of-tab#caption-two");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".statement#statement-one");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".statement#statement-two");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".statement#statement-three");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".findtrend-header#startups-header");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".social-media-summary#icon-header");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".faded-text#fading-text");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".trend-btn ");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".deals-header#deal-header");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".monthly#monthly-subhead");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#find-your-trends");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(".yearly-subhead#year");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#personal");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#personal-packet");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#five-per-month");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#up-to-ten-group-pages");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#five-saved-pages");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#ten-group");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector(
+  ".start-trial-btn#start-free-trial-btn-one"
+);
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#regular-deal");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#recommended");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#twenty");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#fifteen-pages");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#download-twenty-pages");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#ten-group-pages-regular");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#fifteen-group-pages-saved");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#premium");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#free-trial-btn-two");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#packet-for-startup");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#forty-eight-dollars");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#unlimited-group-pages");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#unlimited-downloads");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#unlimited-each-page");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#start-free-trial-three");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#thirty-group-pages");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#customizable-group-pages");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#customize-sorting");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#start-free-trial-three");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#join-us-header-one");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.querySelector("#join-us-header-two");
+placeholder.innerText = "Placeholder";
+
+
+
+placeholder = document.querySelector("#find-trend-logo-text");
+placeholder.innerText = "Placeholder";
+
+placeholder = document.getElementById("join-now-button-footer");
+placeholder.innerText = "Placeholder";
+
+
+
+// placeholder = document.querySelector("#");
+// placeholder.innerText = "Placeholder" ;
+
+placeholder = document.querySelector("#link-privacy-policy");
+placeholder.innerText = "Placeholder" ;
+
+placeholder = document.querySelector("#link-terms-and-conditions");
+placeholder.innerText = "Placeholder" ;
+
+placeholder = document.querySelector("#link-contact-us");
+placeholder.innerText = "Placeholder" ;
+
+placeholder = document.querySelector("#link-careers");
+placeholder.innerText = "Placeholder" ;
+
+placeholder = document.querySelector("#find-trend-header");
+placeholder.innerText = "Placeholder" ;
